@@ -2,10 +2,9 @@
 
 #include <QApplication>
 #include <qdesktopwidget.h>
-int a;
+
 int main(int argc, char *argv[])
 {
-    a++;
     QApplication a(argc, argv);
     Morho w;
     QDesktopWidget *desktop = QApplication::desktop();
